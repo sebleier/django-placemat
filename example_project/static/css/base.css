@@ -1,0 +1,60 @@
+article, aside, details, figcaption, figure, footer, header,
+hgroup, menu, nav, section { display: block; }
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td
+{
+    border:0 none;
+    font-family:inherit;
+    font-size:100%;
+    font-style:inherit;
+    font-weight:inherit;
+    margin:0;
+    outline:0 none;
+    padding:0;
+    vertical-align: baseline;
+    font-family: Helvetica Neue,Arial,Helvetica,sans-serif;
+}
+
+html {
+    color: #333;
+    background: #02374C;
+    margin: 0px;
+}
+body {
+  margin:0;
+  padding:0;
+  height: 100%;
+  min-height: 100%;
+  position: relative;
+}
+
+a { text-decoration: none; cursor: pointer; }
+a:hover { text-decoration: underline; }
+.clear { clear: both; }
+/* Header */
+#wrapper header {
+  width: 1000px;
+  background-color: transparent;
+  height: 34px;
+  vertical-align: middle;
+  line-height: 30px;
+}
+
+#content {
+  width: 1000px;
+  background-color: #fff;
+  border-radius: 10px 10px 0px 0px;
+  -moz-border-radius: 10px 10px 0px 0px;
+  -webkit-border-bottom-right-radius: 0px;
+  -webkit-border-bottom-left-radius: 0px;
+  min-height: 600px;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+#wrapper {
+  background: #02374C; /* old browsers */
+  background: -moz-linear-gradient(top, #000000 0%, #02374C 40%); /* firefox */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#000000), color-stop(40%,#02374C)); /* webkit */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#02374C',GradientType=0 ); /* ie */
+  min-height: 300px;
+}
